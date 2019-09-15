@@ -1,0 +1,171 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- Under Nav -->
+    <!-- (Mobile) Display:none -->
+    <header class=" set-bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 slogan">Rebrac Intrumentos de Medição - Fazendo o que é preciso!</div>
+                <div class="col-6 text-right slogan">
+                    <i class="fa fa-fw fa-phone-square fa-lg" aria-hidden="true"> </i><span>(15) 99832-0028/(15)
+                        3227-4196</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- FIM Under Nav -->
+    <div class="container">
+
+        <!-- Menu Nav -->
+        <nav class="navbar navbar-expand-lg navbar-light justify-space-between">
+            <a class="navbar-brand" href="#"> <img class="img-fluid" title="Rebrac"
+                    src="./imagens/rebrac-instrumentos-de-medicao.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-brand text-right" id="navbarSupportedContent">
+                <div class="set-under-nav ">
+                    <ul>
+                        <li>
+                            <button id="m1" href="#" onclick="setActive('m1','menu-btn-active','set-menu-btn')"
+                                class="btn-client btn set-bg-blue text-white text-uppercase ">
+                                <i class="fa mr-2 fa-fw fa-home fa-lg" aria-hidden="true"> </i><b>HOME</b></button>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--  FIM Menu Nav -->
+    </div>
+
+    </div>
+
+    <div class="pa-40 set-bg-gray">
+
+        <div class="container ">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                <strong class="title">Área do Cliente</strong>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container mt-5 mb-5">
+        <div class="row ">
+            <div class="col-3 gray-menu nav flex-column nav-pills " id="v-pills-tab" role="tablist"
+                aria-orientation="vertical">
+                <a class="nav-link active set-bg-gray" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
+                    role="tab" aria-controls="v-pills-home" aria-selected="true">INÍCIO</a>
+                <a class="nav-link set-bg-gray" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
+                    role="tab" aria-controls="v-pills-profile" aria-selected="false">MEUS DADOS</a>
+                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
+                    aria-controls="v-pills-messages" aria-selected="false">SERVIÇOS</a>
+                <a class="nav-link " id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                    aria-controls="v-pills-settings" aria-selected="false">DOWNLOADS</a>
+                <a class="nav-link " id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                    aria-controls="v-pills-settings" aria-selected="false">ALTERAR SENHA</a>
+                <a class="nav-link " id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                    aria-controls="v-pills-settings" aria-selected="false">SAIR</a>
+            </div>
+            <div class="col-9 tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                    aria-labelledby="v-pills-home-tab">
+                    <strong class="title">INÍCIO</strong>
+                    <div class="row">
+                        <div class="col-6">
+                            Nome:
+                        </div>
+                        <div class="col-6">
+                            Emails
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    ...</div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                    ...</div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                    ...</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bg-color-1 py-5">
+        <div class="container py-5">
+            <div class="row ">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 d-flex align-content-end flex-wrap">
+                    <p class="text-white font-sobre ">Rua Peru, 120 - Barcelona - Sorocaba/SP</p>
+                    <button type="button" href="#" class="btn rebrac-red-color bg-warning py-2 px-4 font-weight-bolder"
+                        role="button" aria-pressed="true"><i class="fas fa-map-marked-alt fa-md"></i>COMO
+                        CHEGAR?</button>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 d-flex align-content-around flex-wrap">
+                    <p class="text-white font-sobre"> (15) 3227-4196 / (15) 3227-4228</br>
+                        rebrac@rebrac.com.br
+                    </p>
+                    <button type="button" href="#"
+                        class="btn btn-outline-secondary text-white py-2 px-4 font-weight-bolder" role="button"
+                        aria-pressed="true"><i class="far fa-user fa-md"></i> AREA DO CLIENTE</button>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 d-flex d-flex align-content-end flex-wrap">
+                    <p class="text-white font-sobre"><i class="fab fa-facebook-square"></i> Acesse nosso Facebook.</p>
+                    <button type="button"
+                        href="https://api.whatsapp.com/send?phone=5515998320028&amp;text=Olá, gostaria de um orçamento"
+                        target="_blank" title="" class="btn text-white set-under-nav-wapp py-2 px-4"
+                        data-toggle="tooltip" data-placement="bottom"
+                        data-original-title="Clique e envie pedidos de orçamentos via WhatsApp">
+                        <i class="fab fa-whatsapp fa-lg" aria-hidden="true"> </i><span> ATENDIMENTO ONLINE</span></a>
+                        </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overflow-hidden footer-bg-color-2 py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 text-left ">
+                    <p class="set-text-center text-white  font-sobre">© 2019 Rebrac Instumentos de Medição Ltda - Todos
+                        os
+                        Direitos Reservados.</p>
+                </div>
+                <div class="col-6 text-right">
+                    <p class="set-text-center text-white font-sobre">Desenvolvido por: <span
+                            class="rebrac-yellow-color">Agência Kombi</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+    </div>
+</body>
+
+</html>

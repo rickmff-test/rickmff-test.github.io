@@ -1,0 +1,274 @@
+
+  /* FIM MEDIA QUERY */
+  /* --------------------------- CSS INDEX ---------------------------- */
+  /* MAIN */
+  body {
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+  }
+  .rebrac-red-color {
+    color: #881f1c;
+  }
+  .rebrac-red-color2 {
+    color: #ad6055;
+  }
+  .rebrac-red-color-bg {
+    background-color: #881f1c;
+  }
+  .rebrac-yellow-color {
+    color: #d1b812;
+  }
+  .rebrac-text-large {
+    font-weight: bolder;
+  }
+  .set-overflow {
+    overflow: hidden !important;
+  }
+  .bg-1 {
+    z-index: -10 !important;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../imagens/bg-1.png");
+  }
+  .bg-2 {
+    z-index: -10 !important;
+/*     height: 65vh; */
+    display: block !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../imagens/bg-2.png");
+  }
+  .bg-3 {
+    z-index: -10 !important;
+   /*  height: 80vh; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../imagens/bg-3.png");
+  }
+  .values-list {
+    padding-inline-start: 15px;
+  }
+  .font-sobre {
+    font-size: 13px;
+  }
+  .service-img {
+    height: 200px;
+    width: 400px;
+  }
+  /* FIM  MAIN */
+  /* Assistencia*/
+  .assistText0{
+   font-size: 0px;
+  }
+  /*FIM ASSISTENCIA*/
+  /* Header */
+  .slogan {
+    font-size: 0.8rem;
+  }
+  .set-under-nav {
+    font-weight: normal;
+  }
+  .set-under-nav ul {
+    text-align: right;
+    width: 100%;
+    list-style-type: none;
+  }
+  .text-left {
+    text-align: left;
+  }
+  .text-right {
+    text-align: right;
+  }
+  .set-under-nav-wapp {
+    background-color: #0ab65c;
+  }
+  .set-bg-blue {
+    background-color: #242f4f;
+  }
+
+  /* Navbar */
+  #set-menu {
+    display: flex;
+    justify-content: flex-end !important;
+  }
+  #set-menu2 ul {
+    display: table-cell;
+    vertical-align: middle;
+    list-style: none;
+  }
+  #set-menu2 ul li a {
+    display: flex;
+    justify-content: flex-end !important;
+    padding: 2px 15px;
+    font-size: 16px;
+    display: inline-block;
+    color: #343434;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .set-menu-btn:hover {
+    color: #881f1c;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+      }  
+        .menu-btn-active 
+        {
+          cursor: pointer;
+          color: #881f1c !important;
+        }
+ 
+
+  /* FIM Navbar */
+
+  .set-logo {
+    position: absolute;
+    width: 100%;
+    top: -45px;
+  }
+  .blue-title {
+    color: #556696;
+  }
+
+  
+  /* FIM Header */
+  /* animation class */
+  .assistImage{
+    opacity: 0;
+    overflow: hidden;
+  }
+  .btn_orc{
+   opacity: 0;
+  }
+  
+  .title-from-left{
+    margin-left:-100vh;
+    overflow: hidden;
+  }
+  /* FIM animation */
+
+  /* Carousel */
+  .button-image img {
+    width: auto;
+    height: 20px;
+    margin: 4;
+  }
+  .button-image {
+    width: 45%;
+    margin: auto;
+  }
+
+  .carousel-indicators li {
+    background-color: #fff;
+    height: 3px;
+    width: 3rem;
+  }
+  li.active {
+    background-color: #881f1c !important ;
+  }
+  .carousel-text {
+    position: absolute;
+    top: 15%;
+    right: 35%;
+    z-index: 20;
+    color: #ffead1;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  }
+  .carousel-text-2 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    color: #ffead1;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  }
+  .carousel-caption a {
+    background-color: #ebebeb;
+  }
+  .carousel-caption b {
+    color: #002436;
+  }
+  .set-red-line {
+    background-color: #881f1c;
+    height: 3px;
+    width: 100%;
+  }
+  .set-carousel {
+    height: 500px !important;
+  }
+  .set-bg-dark-gray{
+    background-color: #606060;
+  }
+  .set-bg-gray{
+    background-color: #d6d6d6;
+  }
+  .set-bg-gray .slogan{
+    vertical-align: middle;
+    margin: 20px 0;
+    color:#000;
+    font-weight: 550;
+  }
+  
+  .justify-space-between{
+    justify-content: space-between;
+  }
+ 
+  /* FIM Carousel */
+  /* FOOTER */
+  .set-form {
+    max-width: 75%;
+    margin: auto;
+    padding-bottom: 25px;
+  }
+  .footer-bg-color-1 {
+    background-color: #414b68;
+  }
+  .footer-bg-color-2 {
+    background-color: #273150;
+  }
+  .form-control {
+    border-radius: 0;
+    background-color: #ffff;
+  }
+  /* FIM FOOTER */
+
+.btn-client{
+  width: 15em;
+  height: 3em;
+  background-color: #606060;
+  border-radius:.1rem;
+}
+
+.pa-20{
+  padding: 20px;
+}
+.pa-30{
+  padding: 30px;
+}
+.pa-40{
+  padding: 40px;
+}
+
+.title{
+  font-size: 2.5em;
+  font-weight: 1000;
+}
+
+.gray-menu .nav-link{
+  margin: 4px;
+  color:white;
+  font-weight: bold;
+  text-align: center;
+  background-color: #aaaaaa;
+}
+.gray-menu .active{
+  background-color: #606060 !important;
+}
+
