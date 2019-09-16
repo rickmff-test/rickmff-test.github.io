@@ -3,8 +3,9 @@
     .set-under-nav li {
       display: none;
     }
-    #set-carousel-1 {
-      display: none;
+    .navbar-brand img {
+      width: 162px;
+      height: 58px;
     }
   }
   /* MOBILE 2 */
@@ -13,39 +14,81 @@
       display: none;
     }
 
-    #set-carousel-1 {
-      display: none;
+    .navbar-brand img {
+      width: 162px;
+      height: 58px;
     }
-    .set-nav-logo img {
-      width: 1000px !important;
+
+    .set-menu-btn {
+      justify-content: center;
     }
   }
   /* TABLET */
   @media (min-width: 768px) {
-    .set-under-nav li 
+    .set-under-nav li
     {
       display: none;
     }
-    #set-carousel-1 {
-      display: none;
+    .set-menu-btn {
+      justify-content: center;
     }
+    .navbar-brand img {
+      width: 270px;
+      height: 96px;
+    }
+
   }
     /* DESKTOP */
     @media (min-width: 992px) {
       .set-logo img {
         padding-bottom: 20px;
       }
-      .set-under-nav li 
+      .set-under-nav li
       {
         display: inline;
       }
+      .navbar-brand img {
+        width: 270px;
+        height: 96px;
+      }
+      .set-btn-cliente {
+        justify-content: end;
+      }
+
       
     }
     /* DISPOSITIVOS GRANDES */
     @media (min-width: 1200px) {
-      .set-under-nav li 
+      .set-under-nav
       {
         font-size: 1.05em;
         display: inline;
       }
+      .navbar-brand img {
+        width: 270px;
+        height: 96px;
+      }
+      .set-btn-cliente {
+        justify-content: end;
+      }
     }
+    @media (max-width: 768px) 
+    {
+      #set-carousel-1 {
+        display: none;
+      }
+      .set-menu-btn {
+        justify-content: center;
+        margin-top: 10px;
+      }
+      .set-logo-content img{
+        width: 145px;
+        height: 165px;
+      }
+      #set-carousel-2 {
+        display:none;
+      }
+      .set-missao {
+        display:none;
+      }
+    } 

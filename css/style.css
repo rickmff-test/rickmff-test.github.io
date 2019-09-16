@@ -49,6 +49,14 @@
     background-size: cover;
     background-image: url("../imagens/bg-3.png");
   }
+  .bg-4 {
+    z-index: -10 !important;
+   /*  height: 80vh; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../imagens/bg-4.png");
+  }
   .values-list {
     padding-inline-start: 15px;
   }
@@ -58,6 +66,12 @@
   .service-img {
     height: 200px;
     width: 400px;
+  }
+  .view_more{
+   display: block;
+  }
+  .deactive_display{
+    display: none;
   }
   /* FIM  MAIN */
   /* Assistencia*/
@@ -69,28 +83,26 @@
   .slogan {
     font-size: 0.8rem;
   }
-  .set-under-nav {
-    font-weight: normal;
-  }
   .set-under-nav ul {
     text-align: right;
-    width: 100%;
     list-style-type: none;
-  }
-  .text-left {
-    text-align: left;
-  }
-  .text-right {
-    text-align: right;
+
   }
   .set-under-nav-wapp {
-    background-color: #0ab65c;
+    background-color: #0ab65c !important;
   }
   .set-bg-blue {
-    background-color: #242f4f;
+    background-color: #242f4f !important;
   }
-
+ 
   /* Navbar */
+  .fixed-menu nav {
+    position:fixed;
+    z-index:9999;
+    width: 100% !important;
+    top:0;
+    left:0;
+  }
   #set-menu {
     display: flex;
     justify-content: flex-end !important;
@@ -125,7 +137,14 @@
  
 
   /* FIM Navbar */
-
+  .btn-top{
+     position: fixed; 
+     bottom: 0px; 
+     right: 20px;
+     background-color: #881f1c !important;
+     z-index: 10;
+     
+  }
   .set-logo {
     position: absolute;
     width: 100%;
@@ -229,6 +248,7 @@
   }
   .footer-bg-color-1 {
     background-color: #414b68;
+    width: 100%;
   }
   .footer-bg-color-2 {
     background-color: #273150;
@@ -246,6 +266,10 @@
   border-radius:.1rem;
 }
 
+.pa-0{
+  padding: 0px !important;
+}
+
 .pa-20{
   padding: 20px;
 }
@@ -256,9 +280,35 @@
   padding: 40px;
 }
 
-.title{
-  font-size: 2.5em;
+.title_cliente{
+  font-size: 2em;
   font-weight: 1000;
+} 
+.subtitle_cliente{
+  font-size: 1.3em;
+  font-weight: 1000;
+  align-content: center;
+  text-align: left;
+}
+.align-v-middle{
+  vertical-align: middle !important;
+}
+.align-v-bottom{
+  vertical-align: bottom !important;
+}
+.align-v-top{
+  vertical-align: top !important;
+}
+.set-border-table-client{
+  border-bottom: 4px solid #929292 !important;
+
+}
+.justify-space-around{
+  justify-content: space-around !important;
+}
+.justify-center{
+  justify-content: center !important;
+
 }
 
 .gray-menu .nav-link{
@@ -272,3 +322,13 @@
   background-color: #606060 !important;
 }
 
+.form-client .form-control{
+  border: 2px solid #606060;
+}
+.api-google {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  border: "0";
+
+}

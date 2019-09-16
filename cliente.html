@@ -1,6 +1,52 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:type" content="website" />
+    <title>TITLE_PAGE</title>
+    <meta name="title" content="Rebrac" />
+    <meta property="og:title" content="TITLE_PAGE" />
+    <meta property="og:site_name" content="" />
+    <!--NOME DO SITE-->
+
+    <!--LISTA ABAIXO AS IMAGENS QUE SERAO RANQUEADAS-->
+    <meta property="og:image" content="https://URL-WEBSIte/IMG_SITE" />
+
+    <link rel="alternate" type="application/rss+xml" title="TITLE_PAGE" href="https://URL-WEBSIte/feed_rss.xml" />
+
+    <!--DESCRIPTION DA PAGINA-->
+    <meta name="description" content="DESCRIOTION_TEXT" />
+    <meta name="abstract" content="DESCRIOTION_TEXT" />
+    <meta property="og:description" content="DESCRIOTION_TEXT" />
+    <meta name="twitter:description" content="DESCRIOTION_TEXT" />
+    <meta name="keywords" content="DESCRIOTION_TEXT" />
+    <meta name="dc.keywords" content="DESCRIOTION_TEXT" />
+
+    <meta name="contactCity" content="Sorocaba" />
+    <!--cIDADE DE CONTATO-->
+    <meta name="robots" content="all" />
+    <meta name="googlebot" content="all" />
+    <meta name="InktomiSlurp" content="all" />
+    <meta name="Unknownrobot" content="all" />
+    <meta name="language" content="portuguese" />
+    <meta name="distribution" content="global" />
+    <meta name="rating" content="general" />
+
+
+    <meta name="author" content="AUTHOR">
+    <!--Author do website-->
+    <link href="GPLUS_AUTHOR" rel="publisher" />
+    <!--link do gplus associado a pagina-->
+
+    <meta name="email" content="email_contato" />
+    <!--E-maail de contato-->
+    <!-- URLS DINAMICAS E CANONICAS, JÁ INSERIDA TAG ALTERNATE-->
+    <link rel="canonical" href="https://URL-WEBSIte" />
+    <meta name="url" content="https://URL-WEBSIte" />
+    <link rel="alternate" hreflang="pt-br" href="https://URL-WEBSIte" />
+    <link rel="alternate" href="https//URL-WEBSIte" hreflang="x-default" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css" />
@@ -8,9 +54,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -20,7 +63,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-6 slogan">Rebrac Intrumentos de Medição - Fazendo o que é preciso!</div>
-                <div class="col-6 text-right slogan">
+                <div class="col-6 slogan">
                     <i class="fa fa-fw fa-phone-square fa-lg" aria-hidden="true"> </i><span>(15) 99832-0028/(15)
                         3227-4196</span>
                 </div>
@@ -63,7 +106,7 @@
 
         <div class="container ">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-                <strong class="title">Área do Cliente</strong>
+                <h2 class="title_cliente">Área do Cliente</h2>
             </div>
         </div>
 
@@ -78,79 +121,341 @@
                     role="tab" aria-controls="v-pills-home" aria-selected="true">INÍCIO</a>
                 <a class="nav-link set-bg-gray" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
                     role="tab" aria-controls="v-pills-profile" aria-selected="false">MEUS DADOS</a>
-                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
-                    aria-controls="v-pills-messages" aria-selected="false">SERVIÇOS</a>
-                <a class="nav-link " id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
-                    aria-controls="v-pills-settings" aria-selected="false">DOWNLOADS</a>
-                <a class="nav-link " id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
-                    aria-controls="v-pills-settings" aria-selected="false">ALTERAR SENHA</a>
-                <a class="nav-link " id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
-                    aria-controls="v-pills-settings" aria-selected="false">SAIR</a>
+                <a class="nav-link" id="v-pills-service-tab" data-toggle="pill" href="#v-pills-service" role="tab"
+                    aria-controls="v-pills-service" aria-selected="false">SERVIÇOS</a>
+                <a class="nav-link " id="v-pills-download-tab" data-toggle="pill" href="#v-pills-download" role="tab"
+                    aria-controls="v-pills-download" aria-selected="false">DOWNLOADS</a>
+                <a class="nav-link " id="v-pills-password-tab" data-toggle="pill" href="#v-pills-password" role="tab"
+                    aria-controls="v-pills-password" aria-selected="false">ALTERAR SENHA</a>
+                <a class="nav-link " id="v-pills-settings-tab" href="#v-sair">SAIR</a>
             </div>
             <div class="col-9 tab-content" id="v-pills-tabContent">
                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                     aria-labelledby="v-pills-home-tab">
-                    <strong class="title">INÍCIO</strong>
                     <div class="row">
-                        <div class="col-6">
-                            Nome:
+                        <h3>INÍCIO</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 list-group">
+                            <div><b>Nome:</b> Lorem Impsum</div>
+                            <div><b>CPF:</b> 401.879.698-10</div>
+                            <div><b>Telefone:</b> (15) 3221-8747</div>
                         </div>
                         <div class="col-6">
-                            Emails
+                            <div><b>E-mail:</b> lorem-impsum@gmail.com</div>
+                            <div><b>Data de nascimento:</b> 12/04/1988</div>
+                            <div><b>Celular:</b> (15) 98117-7479s</div>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <h4 class="font-weight-bold">ÚLTIMOS SERVIÇOS</h4>
+                        <div class="col-12 mt-5">
+                            <table class="table table-borderless text-center ">
+                                <tbody>
+
+                                    <tr>
+                                        <th class="align-v-middle set-border-table-client subtitle_cliente" rowspan="2"
+                                            colspan="2">
+                                            <strong>Assistência Técnicass</strong>
+                                        </th>
+                                        <th></th>
+                                        <th>
+                                            <strong>Data</strong>
+                                        </th>
+                                        <th>
+                                            <strong>Status</strong>
+                                        </th>
+                                        <th rowspan="2" class="align-v-bottom pa-0">
+                                            <button class="btn btn-client set-text-whites text-white"><strong>Ver
+                                                    Detalhes</strong></button>
+                                        </th>
+                                    </tr>
+                                    <tr class="set-border-table-client">
+
+                                        <th></th>
+                                        <td class="align-v-top">
+                                            <i class="">21/08/2019</i>
+                                        </td>
+                                        <td>
+                                            <span class="display-5">Em Analise</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+
+                                    <tr>
+                                        <th class="align-v-middle set-border-table-client subtitle_cliente" rowspan="2"
+                                            colspan="2">
+                                            <strong>Calibragem</strong>
+                                        </th>
+                                        <th></th>
+                                        <th>
+                                            <strong>Data</strong>
+                                        </th>
+                                        <th>
+                                            <strong>Status</strong>
+                                        </th>
+                                        <th rowspan="2" class="align-v-bottom pa-0">
+                                            <button class="btn btn-client set-text-whites text-white"><strong>Ver
+                                                    Detalhes</strong></button>
+                                        </th>
+                                    </tr>
+                                    <tr class="set-border-table-client">
+
+                                        <th></th>
+                                        <td>
+                                            <i class="">12/08/2019</i>
+                                        </td>
+                                        <td>
+                                            <span class="display-5">Finalizado</span>
+                                        </td>
+
+                                    </tr>
+                                </tbody>
+                            </table>
+
                         </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                    ...</div>
-                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                    ...</div>
-                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                    ...</div>
-            </div>
-        </div>
-    </div>
+                    <h4 class="font-weight-bold">MEUS DADOS</h4>
+                    <form action="" method="POST" class="form-client">
+                        <div class="row">
+                            <div class="col-6 form-group">
+                                <input type="name" class="form-control" placeholder="NOME" required />
+                            </div>
+                            <div class="col-6">
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="E-MAIL" required />
+                            </div>
+                        </div>
+                        <div class="row form-group">
 
-    <div class="footer-bg-color-1 py-5">
-        <div class="container py-5">
-            <div class="row ">
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 d-flex align-content-end flex-wrap">
-                    <p class="text-white font-sobre ">Rua Peru, 120 - Barcelona - Sorocaba/SP</p>
-                    <button type="button" href="#" class="btn rebrac-red-color bg-warning py-2 px-4 font-weight-bolder"
-                        role="button" aria-pressed="true"><i class="fas fa-map-marked-alt fa-md"></i>COMO
-                        CHEGAR?</button>
+                            <div class="col">
+                                <input required type="text" id="cpf" class="form-control" placeholder="CPF" />
+                            </div>
+                            <div class="col">
+                                <input required type="date" class="form-control" placeholder="DATA DE NASCIMENTO" />
+                            </div>
+                            <div class="col">
+                                <input required type="text" id="telefone" class="form-control"
+                                    placeholder="TELEFONE:" />
+                            </div>
+                            <div class="col">
+                                <input required type="text" id="celular" class="form-control" placeholder="CELULAR:" />
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col text-right">
+                                <button type="submit" class="btn btn-primary btn-client ">ATUALIZAR DADOS</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 d-flex align-content-around flex-wrap">
-                    <p class="text-white font-sobre"> (15) 3227-4196 / (15) 3227-4228</br>
-                        rebrac@rebrac.com.br
-                    </p>
-                    <button type="button" href="#"
-                        class="btn btn-outline-secondary text-white py-2 px-4 font-weight-bolder" role="button"
-                        aria-pressed="true"><i class="far fa-user fa-md"></i> AREA DO CLIENTE</button>
+                <div class="tab-pane fade" id="v-pills-service" role="tabpanel" aria-labelledby="v-pills-service-tab">
+                    <h4 class="font-weight-bold">SERVIÇOS OFERECIDOS</h4>
+                    <div class="row">
+                        <div class="col-12 mt-5">
+                            <table class="table table-borderless text-center ">
+                                <tbody>
+
+                                    <tr>
+                                        <th class="align-v-middle set-border-table-client subtitle_cliente" rowspan="2"
+                                            colspan="2">
+                                            <strong>Assistência Técnicass</strong>
+                                        </th>
+                                        <th></th>
+                                        <th>
+                                            <strong>Data</strong>
+                                        </th>
+                                        <th>
+                                            <strong>Status</strong>
+                                        </th>
+                                        <th rowspan="2" class="align-v-bottom pa-0">
+                                            <button class="btn btn-client set-text-whites text-white"><strong>Ver
+                                                    Detalhes</strong></button>
+                                        </th>
+                                    </tr>
+                                    <tr class="set-border-table-client">
+
+                                        <th></th>
+                                        <td class="align-v-top">
+                                            <i class="">21/08/2019</i>
+                                        </td>
+                                        <td>
+                                            <span class="display-5">Em Analise</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+
+                                    <tr>
+                                        <th class="align-v-middle set-border-table-client subtitle_cliente" rowspan="2"
+                                            colspan="2">
+                                            <strong>Calibragem</strong>
+                                        </th>
+                                        <th></th>
+                                        <th>
+                                            <strong>Data</strong>
+                                        </th>
+                                        <th>
+                                            <strong>Status</strong>
+                                        </th>
+                                        <th rowspan="2" class="align-v-bottom pa-0">
+                                            <button class="btn btn-client set-text-whites text-white"><strong>Ver
+                                                    Detalhes</strong></button>
+                                        </th>
+                                    </tr>
+                                    <tr class="set-border-table-client">
+
+                                        <th></th>
+                                        <td>
+                                            <i class="">12/08/2019</i>
+                                        </td>
+                                        <td>
+                                            <span class="display-5">Finalizado</span>
+                                        </td>
+
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 d-flex d-flex align-content-end flex-wrap">
-                    <p class="text-white font-sobre"><i class="fab fa-facebook-square"></i> Acesse nosso Facebook.</p>
-                    <button type="button"
-                        href="https://api.whatsapp.com/send?phone=5515998320028&amp;text=Olá, gostaria de um orçamento"
-                        target="_blank" title="" class="btn text-white set-under-nav-wapp py-2 px-4"
-                        data-toggle="tooltip" data-placement="bottom"
-                        data-original-title="Clique e envie pedidos de orçamentos via WhatsApp">
-                        <i class="fab fa-whatsapp fa-lg" aria-hidden="true"> </i><span> ATENDIMENTO ONLINE</span></a>
-                        </h6>
+                <div class="tab-pane fade" id="v-pills-download" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                    <h4 class="font-weight-bold">ARQUIVOS DISPONÍVEIS</h4>
+                    <div class="row">
+                        <div class="col-12 mt-5">
+                            <table class="table table-borderless text-center ">
+                                <tbody>
+
+                                    <tr>
+                                        <th class="align-v-middle set-border-table-client subtitle_cliente" rowspan="2"
+                                            colspan="2">
+                                            <strong>Título do document</strong>
+                                        </th>
+                                        <th></th>
+                                        <th>
+                                            <strong>Data</strong>
+                                        </th>
+
+                                        <th rowspan="2" class="align-v-bottom pa-0">
+                                            <button class="btn btn-client set-text-whites text-white"><strong><i
+                                                        class="fa mr-2 fa-fw fa-download fa-lg" aria-hidden="true">
+                                                    </i>Baixar</strong></button>
+                                        </th>
+                                    </tr>
+                                    <tr class="set-border-table-client">
+
+                                        <th></th>
+                                        <td class="align-v-top">
+                                            <i class="">21/08/2019</i>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+
+                                    <tr>
+                                        <th class="align-v-middle set-border-table-client subtitle_cliente" rowspan="2"
+                                            colspan="2">
+                                            <strong>Título do Documento</strong>
+                                        </th>
+                                        <th></th>
+                                        <th>
+                                            <strong>Data</strong>
+                                        </th>
+                                        <th rowspan="2" class="align-v-bottom pa-0">
+                                            <button class="btn btn-client set-text-whites text-white"><strong><i
+                                                        class="fa mr-2 fa-fw fa-download fa-lg" aria-hidden="true">
+                                                    </i>Baixar</strong></button>
+                                        </th>
+                                    </tr>
+                                    <tr class="set-border-table-client">
+
+                                        <th></th>
+                                        <td>
+                                            <i class="">12/08/2019</i>
+                                        </td>
+
+
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-password" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                    <h4 class="font-weight-bold">ALTERAR SENHA</h4>
+                    <form action="" method="POST" class="form-client">
+                        <div class="row">
+                            <div class="col form-group">
+                                <input type="password" class="form-control" placeholder="SENHA ATUAL" />
+                            </div>
+                            <div class="col form-group">
+                                <input type="password" class="form-control" placeholder="NOVA SENHA" />
+                            </div>
+                            <div class="col form-group">
+                                <input type="password" class="form-control" placeholder="REPETIR NOVA SENHA" />
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col text-right">
+                                <button type="submit" class="btn btn-primary btn-client ">ATUALIZAR DADOS</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
-    <div class="overflow-hidden footer-bg-color-2 py-3">
+    <div class=" set-bg-gray py-5">
+            <div class="container py-5">
+               <div class="row">
+                  <div data-aos="zoom-in-down"
+                     class="col-12 col-sm-12 col-md-4 col-lg-4 text-center text-sm-left text-md-left text-lg-left ">
+                     <p class=" font-sobre text-center text-sm-left text-md-left text-lg-left">Rua Peru, 120 -
+                            Rua Lorem Impsum, 901 Bairro Sit Amec - CEP 18022-871                            Sorocaba/SP
+                     </p>
+                     <button type="button" href="#" class="btn btn-client text-white  py-2 px-4 mb-3 font-weight-bolder"
+                        role="button" aria-pressed="true"><i class="fas fa-map-marked-alt fa-md"></i> COMO
+                        CHEGAR?</button>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center ">
+                     <p class=" font-sobre"> (15) 3227-4196 / (15) 3227-4228</br>
+                        rebrac@rebrac.com.br
+                     </p>
+                     <button type="button" href="#"
+                        class="btn btn-client btn-outline-secondary text-white py-2 px-4 font-weight-bolder mb-3" role="button"
+                        aria-pressed="true"><i class="fa fa-user-lock fa-md "></i> ÁREA DO CLIENTE</button>
+                  </div>
+                  <div data-aos="zoom-in-up" data-aos-delay="200" data-aos-duration="1000"
+                     class="col-12 col-sm-12 col-md-4 col-lg-4 text-center text-sm-right text-md-right text-lg-right ">
+                     <p class=" font-sobre"><i class="fab fa-facebook-square"></i> Acesse nosso Facebook.</p>
+                     <a type="button"
+                        href="https://api.whatsapp.com/send?phone=5515998320028&amp;text=Olá, gostaria de um orçamento"
+                        target="_blank" title="" class="btn text-white set-under-nav-wapp py-2 px-4" data-toggle="tooltip"
+                        data-placement="bottom" data-original-title="Clique e envie pedidos de orçamentos via WhatsApp">
+                        <i class="fab fa-whatsapp fa-lg" aria-hidden="true"> </i><span class="font-weight-bold"> ATENDIMENTO
+                           ONLINE</span></a>
+                     </h6>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+    <div class="overflow-hidden set-bg-dark-gray py-3">
         <div class="container">
             <div class="row">
                 <div class="col-6 text-left ">
-                    <p class="set-text-center text-white  font-sobre">© 2019 Rebrac Instumentos de Medição Ltda - Todos
+                    <p class="set-text-center text-white    small">© 2019 Rebrac Instumentos de Medição Ltda - Todos
                         os
                         Direitos Reservados.</p>
                 </div>
                 <div class="col-6 text-right">
-                    <p class="set-text-center text-white font-sobre">Desenvolvido por: <span
-                            class="rebrac-yellow-color">Agência Kombi</span></p>
+                    <p class="set-text-center text-white ">Desenvolvido por: <span class="rebrac-yellow-color">Agência
+                            Kombi</span></p>
                 </div>
             </div>
         </div>
@@ -158,6 +463,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
